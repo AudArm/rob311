@@ -35,10 +35,9 @@ def compute_motor_torques(Tx, Ty, alpha):
     T3: Motor Torque 3
 
     '''
-    # YOUR
-    # CODE 
-    # GOES 
-    # HERE
+    T1 = (1/3)*(-2*Ty/cos(alpha))
+    T2 = (1/3)*((-sqrt(3)*Tx + Ty)/cos(alpha))
+    T2 = (1/3)*((sqrt(3)*Tx + Ty)/cos(alpha))
 
     return 0, 0, 0
 
